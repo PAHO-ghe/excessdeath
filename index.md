@@ -1,3 +1,4 @@
+[Home](https://paho-ghe.github.io/PAHO/)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/PAHO-ghe/excessdeath/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
