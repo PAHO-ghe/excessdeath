@@ -1,1 +1,7 @@
 theme: jekyll-theme-minimal
+title                    : "Excess death forecasting in Americas due to COVID19" 
+repository               : " " 
+search                   : true 
+search_full_content      : true 
+author:
+  github : "PAHO-ghe" 
