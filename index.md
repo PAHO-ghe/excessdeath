@@ -58,6 +58,9 @@ expectedout <- expected.ghe()
 write.csv(expectedout, file = "./expectedout.csv", row.names = F)
 
 ```
+![download (1)](https://user-images.githubusercontent.com/81782228/126556506-7c46e283-fb0e-4408-939c-95b3b14578a3.png)
+
+
 
 Retrieve observed death in year 2020. If missing, replace with value driven from the model using extra dataset with explanatory variables as below 
   - SDI index data  
