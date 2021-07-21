@@ -4,6 +4,8 @@
 Excess death = expected death - observed death 
 {% include example1.html %}
 
+![download](https://user-images.githubusercontent.com/81782228/126429763-6c879790-408d-4e57-8f7d-0f50c687c73a.png)
+
 
 ## 2. Method 
 Expected death forecasting (GAN or ARIMA) : Using GHE data from 2000 - 2019 (WHO) 
