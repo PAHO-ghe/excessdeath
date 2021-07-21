@@ -2,7 +2,7 @@
 
 ## 1. Background 
 Excess death = expected death - observed death 
-
+{% include example1.html %}
 
 
 ## 2. Method 
@@ -19,3 +19,4 @@ Retrieve observed death in year 2020. If missing, replace with value driven from
   - World bank income group data
 
 ## 3. Result 
+
