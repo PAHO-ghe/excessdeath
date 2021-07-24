@@ -4,9 +4,6 @@
 Excess death = expected death - observed death 
 {% include example1.html %}
 
-![download](https://user-images.githubusercontent.com/81782228/126429763-6c879790-408d-4e57-8f7d-0f50c687c73a.png)
-
-
 ## 2. Method 
 Expected death forecasting  : Using GHE data from 2000 - 2019 (WHO) 
 ### Call dataset
@@ -69,6 +66,9 @@ Retrieve observed death in year 2020. If missing, replace with value driven from
   - Karolinsky World mortality data: [source](https://raw.github.com/akarlinsky/world_mortality/)
   - Our world data: [source](https://covid.ourworldindata.org/data/owid-covid-data.csv)
   - World bank income group data: [source](http://databank.worldbank.org/data/download/site-content/CLASS.xls)
+
+
+
 ```r
 # Aggregating from quarters to the sum for the entire year
 
@@ -168,8 +168,6 @@ sum.exc.exc <- rbind(Argentina.sum.exc  ,AntiguaandBarbudaa.sum.exc   ,Bahamas.s
          region = factor(Country, levels = c( "Argentina" ,"Antigua and Barbuda","Bahamas" ,"Belize","Bolivia (Plurinational State of)","Brazil","Barbados","Canada","Chile","Colombia","Costa Rica","Cuba","Dominica","Dominican Republic","Ecuador","Grenada","Guatemala","Guyana","Honduras","Haiti","Jamaica","Saint Kitts and Nevis","Saint Lucia","Mexico","Nicaragua","Panama","Peru","Paraguay","El Salvador","Suriname","Trinidad and Tobago","Uruguay","United States of America","Saint Vincent and the Grenadines","Venezuela (Bolivarian Republic of)")), 
          model = "Mixed Effects") %>%
   dplyr::select(model, region, Nx, covid, excess, low, mean, high)
-
-
 ```
 ## 3. Result 
 
