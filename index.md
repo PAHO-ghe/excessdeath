@@ -63,12 +63,18 @@ write.csv(expectedout, file = "./expectedout.csv", row.names = F)
 
 
 Retrieve observed death in year 2020. If missing, replace with value driven from the model using extra dataset with explanatory variables as below 
-  - SDI index data  
-  - GBD data
-  - Oxford national policy data
-  - Karolinsky baseline data 
-  - Our world data
-  - World bank income group data
+  - SDI index data : [source](http://ghdx.healthdata.org/sites/default/files/record-attached-files/IHME_GBD_2019_SDI_1990_2019_Y2020M10D15.XLSX)
+  - WHO COVID19 data: [source](https://covid19.who.int/WHO-COVID-19-global-data.csv)
+  - Oxford goverment policy data: [source](https://www.nature.com/articles/s41562-021-01079-8)
+  - Karolinsky World mortality data: [source](https://raw.github.com/akarlinsky/world_mortality/)
+  - Our world data: [source](https://covid.ourworldindata.org/data/owid-covid-data.csv)
+  - World bank income group data: [source](http://databank.worldbank.org/data/download/site-content/CLASS.xls)
+```r
 
+
+```
 ## 3. Result 
 
+
+
+This edited data and code is forked from https://msemburi.github.io/#background. 
