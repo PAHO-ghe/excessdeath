@@ -173,4 +173,4 @@ sum.exc.exc <- rbind(Argentina.sum.exc  ,AntiguaandBarbudaa.sum.exc   ,Bahamas.s
 
 
 
-This edited data and code is forked from https://msemburi.github.io/#background. 
+This page's data and code are forked from https://msemburi.github.io/#background and edited. 
