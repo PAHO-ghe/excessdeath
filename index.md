@@ -72,7 +72,7 @@ Retrieve observed death in year 2020. If missing, replace with value driven from
 ```r
 # Aggregating from quarters to the sum for the entire year
 
-df.lin      <- analysis_mod %>% 
+df.lin      <- GHE_PAHO_NDeaths %>% 
   group_by(Country, iso3, WHO_region, Nx, ncdr, sdi) %>%
   summarize(covid = sum(cov_deaths), 
             expected = sum(expected), 
